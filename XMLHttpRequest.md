@@ -1,16 +1,17 @@
-﻿# XMLHttpRequest
-##**目录**
+# XMLHttpRequest
+
+## **目录**
 * [概述](#_1)
 * [Ajax和XMLHttpRequest](#_2)
 	+ [什么是Ajax?](#_2_1)
 	+ [什么是XMLHttpRequest](#_2_2)
 
-####**概述**
-<span id="_1"></span>
+#### **概述**
+
 >看到标题的时候，可能很多的同学说，我已经使用xhr发送很多的ajax请求了，对于它的基本操作已经算熟练了，但是你真的会使用XMLHttpRequest吗？
 
-####**<font>Ajax</font>和<font>XMLHttpRequest</font>**
-<span id="_2"></span>
+#### **<font>Ajax</font>和<font>XMLHttpRequest</font>**
+
 >通常我们认为Ajax是等同XMLHttpRequest,但是细究起来他们是两个不同的概念。
 >>[什么是Ajax?](http://www.cnblogs.com/SanMaoSpace/archive/2013/06/15/3137180.html)
 <span id="_2_1"></span>
