@@ -1,9 +1,4 @@
-<style>
-font{
-color:red;
-}
-</style>
-# XMLHttpRequest
+﻿# XMLHttpRequest
 ##**目录**
 * [概述](#_1)
 * [Ajax和XMLHttpRequest](#_2)
