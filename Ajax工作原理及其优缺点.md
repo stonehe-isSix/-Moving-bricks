@@ -1,11 +1,7 @@
 <style>
-body{
-	font-size:16px;
-}
-font{
-	color:red;
-}
+font{color:red;}
 </style>
+
 #Ajax工作原理及其优缺点
 >**目录**
 
