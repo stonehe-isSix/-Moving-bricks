@@ -34,7 +34,7 @@
           4.将 GetValue(rref) 的结果存入 rval 变量
           5.执行 Abstract Equality Comparison 算法判断 rval == lval 并将结果直接返回
 
-          注意，其中的前 4 个步骤是和 === 完全相同的。唯独 5 不同。对于 === 来说，调用的是 Strict Equality Comparison 算法，但是 == 则调用的是 Abstract Equality Comparison 算法。虽然仅一词之差，但是却有质的不同，我们下面就来看看到底它是怎么实现的
+          注意，其中的前 4几个步骤是和 === 完全相同的。后面不同。对于 === 来说，调用的是 Strict Equality Comparison 算法，但是 == 则调用的是 Abstract Equality Comparison 算法。虽然仅一词之差，但是却有质的不同，我们下面就来看看到底它是怎么实现的
 
           假设要计算的是 x == y，Abstract Equality Comparison 计算的过程如下（很冗长，但是每个步骤都很简单）
           1. 如果 Type(x) 和 Type(y) 相同，则
